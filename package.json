@@ -1,7 +1,7 @@
 {
   "name": "2-pair",
   "version": "1.0.0",
-  "description": "",
+  "description": "```sql CREATE TABLE `board` (   `boardindex` int(11) PRIMARY KEY AUTO_INCREMENT,   `userid` varchar(64) NOT NULL,   `subject` varchar(64) NOT NULL ,   `content` text NOT NULL,   `tagContent` varchar(64) UNIQUE,   `registerDate` datetime DEFAULT (now()) );",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,13 @@
     "express": "^4.18.2",
     "mysql2": "^3.0.0",
     "nunjucks": "^3.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OJKSmITh/paircoding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OJKSmITh/paircoding/issues"
+  },
+  "homepage": "https://github.com/OJKSmITh/paircoding#readme"
 }
