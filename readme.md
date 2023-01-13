@@ -59,4 +59,8 @@ ALTER TABLE `hashtag` ADD FOREIGN KEY (`content`) REFERENCES `board` (`tagConten
 ```
 
 ## 깃은 이렇게 합시다.
-commit 쌓고 push pull 받기 
+브랜치 푸쉬 후 
+
+git hub에서 merge하고 
+
+메인에 pull 받기 
