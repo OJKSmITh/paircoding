@@ -7,6 +7,7 @@ const password = process.env.DB_PASSWORD;
 const database = process.env.DB_DATABASE;
 
 const config = {
+    port: process.env.PORT,
     db: {
         username,
         password,

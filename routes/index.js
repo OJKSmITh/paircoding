@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
+const board = require("../board/board.router");
 
-router.use("/comments"); // view page
+router.use("/board", board); // view page
 
 module.exports = router;

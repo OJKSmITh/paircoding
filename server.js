@@ -2,7 +2,7 @@ const express = require("express");
 const router = require("./routes");
 const config = require("./config");
 const app = express();
-const PORT = config.PORT;
+const PORT = config.port;
 
 app.use(router);
 
