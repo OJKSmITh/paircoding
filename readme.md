@@ -57,3 +57,6 @@ ALTER TABLE `onlytag` ADD FOREIGN KEY (`id`) REFERENCES `board` (`boardindex`) O
 
 ALTER TABLE `hashtag` ADD FOREIGN KEY (`content`) REFERENCES `board` (`tagContent`) ON DELETE CASCADE;
 ```
+
+## 깃은 이렇게 합시다.
+commit 쌓고 push pull 받기 
